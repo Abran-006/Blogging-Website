@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Lint HTML Files With HTMLHint
-        run: npx htmlhint "**/*.html"
+        run: npx htmlhint "src/**/*.html"
 
       - name: Lint CSS Files With Stylelint
         run: npx stylelint "**/*.css"
